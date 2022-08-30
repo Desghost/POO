@@ -4,6 +4,13 @@ package poo;
 public class POO {
     
     public static void main(String[] args) {
+        double a = 3, b =2;
+        
+        System.out.println("Resultado é: "+Calculo.elevar(a, b));
+        
+        
+        
+        /*
         Carro meuCarro = new Carro();
         
         meuCarro.setCor("Preto");
@@ -21,6 +28,8 @@ public class POO {
         voceMesmo.setIdade(14);
         
         voceMesmo.imprimeDadosDaPessoa();
+        */
+        
         
     }
     
