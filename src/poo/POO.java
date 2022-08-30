@@ -11,11 +11,7 @@ public class POO {
         meuCarro.setPlaca("AACD-2335");
         meuCarro.setTipo("Porshe");
         
-        System.out.println("----------------CARRO--------------");
-        System.out.println("Cor: "+ meuCarro.getCor());
-        System.out.println("Número de portas: "+ meuCarro.getNumPortas());
-        System.out.println("Placa: "+ meuCarro.getPlaca());
-        System.out.println("Tipo: "+ meuCarro.getTipo());
+        meuCarro.imprimeDadosDoCarro();
         
         Pessoa voceMesmo = new Pessoa();
         
@@ -24,11 +20,7 @@ public class POO {
         voceMesmo.setBioTipo("Gordo");
         voceMesmo.setIdade(14);
         
-        System.out.println("----------------CARRO--------------");
-        System.out.println("Nome: "+ voceMesmo.getNome());
-        System.out.println("Altura: "+ voceMesmo.getAltura());
-        System.out.println("Biotipo: "+ voceMesmo.getBioTipo());
-        System.out.println("Idade: "+ voceMesmo.getIdade());
+        voceMesmo.imprimeDadosDaPessoa();
         
     }
     
